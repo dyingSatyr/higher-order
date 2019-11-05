@@ -16,3 +16,12 @@
  })
 
  console.log(alphabetically)
+
+ /**
+  * sort nums asc and desc
+  */
+
+const asc = nums.sort((a, b) => a - b)
+console.log(asc)
+const desc = nums.sort((a, b) => b - a)
+console.log(desc)
